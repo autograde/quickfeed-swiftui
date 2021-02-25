@@ -19,8 +19,8 @@ class GRPCManager {
     
     
     init(){
-        let hostname = "ag2.ux.uis.no"
-        let port = 443
+        let hostname = "localhost"
+        let port = 9090
         
         // Setup an `EventLoopGroup` for the connection to run on.
         //
